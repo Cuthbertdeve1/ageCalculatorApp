@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+ <link rel="stylesheet" href="assets/css/bootstrap/css/bootstrap.min.css">
+ <link rel="stylesheet" href="assets/css/style.css">
+ <link rel="stylesheet" href="https://fonts.google.com/specimen/Poppins">
+  <title>Frontend Mentor | Age calculator app</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+
+</head>
+<body class="">
+<div class="container">
+ <div class="row">
+   <div class="col-4 col-lg-3 col-md-4">
+     <label class="form-label">DAY</label>
+     <input type="text" id="dayInput" class="form-control" name="" value="" placeholder="DD" required>
+     <span id="validateDay" class="errors"></span>
+   </div>
+   <div class="col-4 col-lg-3 col-md-4" id="monthVal">
+
+      <label for="" class="form-label">MONTH </label>
+     <input type="text" id="monthInput" class="form-control " name="" value="" placeholder="MM">
+     <span id="validateMonth" class="errors"></span>
+   </div>
+   <div class="col-4 col-lg-3 col-md-4 " id="yearVal">
+     <label class="form-label">YEAR</label>
+   <input type="text" id="yearInput" class="form-control" name="" placeholder="YYYY">
+   <span id="validateYear" class="errors "></span>
+   </div>
+</div>
+
+<!-- position Line -->
+<div class="position-relative bar-btn">
+  <!-- <div class="progress bar-line "> -->
+     <hr class="bar-line">
+  <button type="button" id="btnCalculate" class="btn-bar translate-middle btn rounded-pill"><img class="btn-img" src="assets/images/icon-arrow.svg" alt=""> </button>
+</div>
+<!-- </div> -->
+<div class="row">
+
+ <div class="age">
+   <h1><i id="myYears" class="my-age">--</i>&nbspyears</h1>
+ <h1><i id="myMonths" class="my-age">--</i>&nbspmonths</h1>
+   <h1><i id ="myDays" class="my-age">--</i>&nbspdays</h1>
+ </div>
+ </div>
+</div>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="#">Cuthbert</a>.
+  </div>
+  <script src="assets/js/calculate.js" charset="utf-8"></script>
+  <!-- <script src="assets/js/index.js" charset="utf-8"></script> -->
+  <script src="assets/js/bootstrap/js/bootstrap.bundle.min.js" charset="utf-8"></script>
+</body>
+</html>

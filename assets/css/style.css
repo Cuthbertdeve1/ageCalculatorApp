@@ -1,0 +1,144 @@
+body{
+background-color: hsl(0, 0%, 94%);
+font-family:'Poppins';
+font-weight: 400;
+}
+.container{
+  background-color: hsl(0, 0%, 100%);
+  width: 55%;
+  margin-top: 8rem;
+  padding: 2rem;
+  border-radius: 1rem;
+  border-bottom-right-radius:5rem;
+}
+label{
+  color: hsl(0, 1%, 44%);
+  font-family: 'Poppins';
+  font-weight: 700;
+}
+.form-control{
+  border: 1.5px solid hsl(0, 0%, 86%);
+  font-size: 32px;
+  font-weight: 700;
+  font-family: 'Poppins';
+  color: hsl(0, 0%, 8%);
+
+}
+.form-control::placeholder{
+    color: hsl(0, 1%, 44%);
+}
+.bar-btn{
+  margin-top: 2rem;
+  margin-right: 2rem;
+}
+.bar-line{
+   border-block-width: 3px;
+  color: hsl(0, 0%, 86% );
+  /* --bs-progress-bg: hsl(0 0% 86% / 1); */
+}
+.btn-bar{
+  position: absolute;
+  top: 0;
+  left: 100%;
+  width: 4.5rem;
+  height: 4.5rem;
+  background-color: hsl(259, 100%, 65%);
+}
+.btn-bar:hover{
+  background-color: hsl(0, 0%, 8%);
+  border: hsl(0, 0%, 8%);
+}
+.btn-img{
+  width: 80%;
+}
+.my-age{
+  color: hsl(259, 100%, 65%);
+}
+.age h1{
+  font-weight: 800;
+  font-size: 70px;
+  font-family: 'Poppins';
+  color: hsl(0, 0%, 8%);
+}
+
+.errors {
+      color: hsl(0deg 100% 67% / 75%);
+  }
+  span.errors{
+    font-size: 14px;
+    font-style: italic;
+  }
+  input.errors{
+    border: 2px solid hsl(0deg 100% 57% / 30%);
+    margin: 0px;
+     color:  hsl(0, 0%, 8%);
+  }
+
+.attribution {
+  margin-top: 4rem;
+font-size: 11px;
+text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+@media (max-width:1074px) {
+  .container{
+    width: 60%;
+  }
+}
+
+@media (max-width:992px) {
+  .container{
+    width: 70%;
+    margin-top: 4rem;
+  }
+  .bar-btn{
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    margin-right: 0rem;
+  }
+  .btn-bar{
+    left: 50%;
+    width: 4rem;
+    height: 4rem;
+  }
+  .age h1{
+    font-size: 55px;
+  }
+  .form-control{
+    font-size: 28px;
+  }
+}
+@media (max-width:652px) {
+  .container{
+    width: 80%;
+    margin-top: 4rem;
+  }
+  .age h1{
+    font-size: 50px;
+  }
+  .form-control{
+    font-size: 26px;
+  }
+}
+@media (max-width:512px) {
+  .container{
+    width: 90%;
+    margin-top: 4rem;
+  }
+  .age h1{
+    font-size: 40px;
+  }
+  .form-control{
+    font-size: 17px;
+  }
+  label{
+  font-size: 12px;
+  }
+  .btn-bar{
+    width: 3.3rem;
+    height: 3.3rem;
+
+  }
+  .errors {
+        font-size: 12px;
+  }
+}
